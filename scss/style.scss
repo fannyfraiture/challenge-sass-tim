@@ -1,4 +1,12 @@
-@import '_variables.scss';
+@import 'scss/variables';
+@import 'scss/design';
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: $color2;
+    background-color: $color3;
+}
 
 header {
     background-color: white;
