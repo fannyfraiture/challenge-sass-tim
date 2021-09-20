@@ -1,0 +1,111 @@
+header {
+  background-color: white;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 1%;
+  -webkit-box-shadow: 1px 1px 1px 1px #7E7E7E;
+          box-shadow: 1px 1px 1px 1px #7E7E7E;
+}
+
+header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid #D4D4D4 5px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  background-color: #DD5555;
+  width: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+header p {
+  text-align: justify;
+  font-size: 19px;
+}
+
+ul {
+  background-color: white;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 65px 25px 65px 25px;
+  border-radius: 5px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-shadow: 1px 1px 1px 1px #7E7E7E;
+          box-shadow: 1px 1px 1px 1px #7E7E7E;
+}
+
+ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+ul a {
+  text-decoration: none;
+  color: #D4D4D4;
+  font-size: 20px;
+}
+
+ul i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #D4D4D4;
+  font-size: 30px;
+}
+
+section {
+  background-color: white;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 1%;
+  -webkit-box-shadow: 1px 1px 1px 1px #7E7E7E;
+          box-shadow: 1px 1px 1px 1px #7E7E7E;
+}
+
+section h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+section img {
+  width: 110px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=style.css.map */
