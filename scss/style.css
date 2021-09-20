@@ -1,24 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   color: #7E7E7E;
   background-color: #D4D4D4;
 }
 
+body h2 {
+  font-weight: 550;
+}
+
+body .surligne {
+  background-color: #d4d4d4;
+}
+
 header {
   background-color: white;
   width: 600px;
-  margin: 0 auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
+  margin: 25px auto;
+  padding: 25px;
   border-radius: 1%;
   -webkit-box-shadow: 1px 1px 1px 1px #7E7E7E;
           box-shadow: 1px 1px 1px 1px #7E7E7E;
+}
+
+header h1 {
+  color: #DD5555;
+  font-weight: 800;
 }
 
 header img {
@@ -33,10 +41,7 @@ header a {
   color: white;
   background-color: #DD5555;
   width: 8px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding: 12px;
   text-align: center;
   border-radius: 5px;
   font-weight: 500;
@@ -47,13 +52,15 @@ header p {
   font-size: 19px;
 }
 
+header .bold {
+  font-weight: bold;
+}
+
 ul {
   background-color: white;
   width: 600px;
-  margin: 0 auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  padding-top: 65px 25px 65px 25px;
+  margin: 25px auto;
+  padding: 65px 25px;
   border-radius: 5px;
   list-style-type: none;
   display: -webkit-box;
@@ -90,16 +97,15 @@ ul i {
   font-size: 30px;
 }
 
+ul .surligne {
+  background-color: #d4d4d4;
+}
+
 section {
   background-color: white;
   width: 600px;
-  margin: 0 auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
+  margin: 25px auto;
+  padding: 25px;
   border-radius: 1%;
   -webkit-box-shadow: 1px 1px 1px 1px #7E7E7E;
           box-shadow: 1px 1px 1px 1px #7E7E7E;
@@ -115,5 +121,27 @@ section img {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-top: 15px;
+}
+
+article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5px;
+  margin-left: 15px;
+  padding-top: 20px;
+}
+
+article p {
+  text-align: justify;
+  font-size: 19px;
+  margin: 0 25px 0 15px;
+  letter-spacing: -0, 5px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+article .info {
+  margin-bottom: 8px;
 }
 /*# sourceMappingURL=style.css.map */
